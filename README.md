@@ -34,7 +34,8 @@ Open issues over at the main [SIFT Repository](https://github.com/sans-dfir/sift
 
 1. Go to the [Latest Releases](https://github.com/sans-dfir/sift-cli/releases/latest)
 2. Download all the release files
-    * sift-cli-linux (per version 1.9.2, file will be renamed to 'sift' during the cURL pull)
+    * sift-cli-linux 
+      * Note: Per version 1.9.2, file will be renamed to 'sift' during the cURL pull
     * sift-cli-linux.sha256.asc
 3. Import the PGP Key - `gpg --keyserver hkp://pool.sks-keyservers.net:80 --recv-keys 22598A94`
 4. Validate the signature `gpg --verify sift-cli-linux.sha256.asc`
