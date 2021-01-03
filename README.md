@@ -44,7 +44,8 @@ Open issues over at the main [SIFT Repository](https://github.com/sans-dfir/sift
       can be ignored so long as you see `sift-cli-linux: OK` before it
     * Note: Line 4 in 'sift-cli-linux.sha256.asc' must be changed from 'sift-cli-linux' to 'sift'
 6. Move the file to `sudo mv sift-cli-linux /usr/local/bin/sift`
-7. Run `chmod 755 /usr/local/bin/sift`
+   * Note: Per version 1.9.2, this step is not necessary as the file is pulled via cURL to the /usr/local/bin directory
+7. Run `chmod 755 /usr/local/bin/sift` or `chmod +x`
 8. Type `sift --help` to see its usage
 
 ## Examples
